@@ -40,7 +40,7 @@ securityDefinitions:
       droits_assurance_maladie: scope de consentement de l'utilisateur France Connect
 paths:
   /me:
-    post:
+    get:
       tags:
         - beneficiaire
       summary: Retourne les données bénéficaire
