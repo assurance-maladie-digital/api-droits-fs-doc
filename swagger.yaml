@@ -12,12 +12,15 @@ info:
     L'API est accèdée après une connexion France Connect réussie.
     
     
-    La recherche se fait par fourchette de dates, mais à partir de la date d'appel, ainsi ; il n'est pas possible de chercher des informations sur un bénéficiaire à une date antérieure à celle de la date d'interrogation. De même les dates de fin de droits et de contrats  sont connus au maximum un an après le date d'appel de l'API. 
+    La recherche se fait par fourchette de dates, mais à partir de la date d'appel, ainsi ; il n'est pas possible de chercher des informations sur un bénéficiaire à une date antérieure à celle de la date d'interrogation. De même les dates de fin de droits et de contrats  sont connus au maximum un an après le date d'appel de l'API.
+    
+    
+    Vous pouvez tester cette API avec vos codes d'authorisation de test France Connect (https://partenaires.franceconnect.gouv.fr/monprojet/decouverte) et votre API-key de test.
 
   contact:
     email: contact-api-partenaire@ameli.fr
   title: API des droits assurés
-  version: v1
+  version: "v1-apim"
 host: partenaires.api.ameli.fr
 basePath: /test/v1/droits/beneficiaires
 schemes:
